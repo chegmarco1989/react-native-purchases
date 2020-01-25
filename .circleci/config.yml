@@ -134,9 +134,9 @@ workflows:
       - analyse_js:
           requires:
             - checkout_code
-      - android:
-          requires:
-            - checkout_code
-      - ios:
-          requires:
-            - checkout_code
+      # - android:
+      #     requires:
+      #       - checkout_code
+      # - ios:
+      #     requires:
+      #       - checkout_code
