@@ -7,7 +7,6 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
-    "preinstall": "node build.js",
     "test": "jest",
     "demo.ios": "cd example; react-native run-ios",
     "demo.android": "cd example; react-native run-android",
